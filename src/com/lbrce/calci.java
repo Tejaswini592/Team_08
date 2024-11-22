@@ -3,11 +3,11 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-class Test {
+class calci {
     public static void main(String[] args) throws FileNotFoundException {
         // Load file
     	
-        File file = new File("C:\\avinash\\file.txt");
+        File file = new File("C:\Users\TEJASWINI.K\OneDrive\Desktop\file.txt");
         Scanner scanner = new Scanner(file);
 
         // Read numbers and operation from file
